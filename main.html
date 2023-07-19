@@ -13,22 +13,23 @@
 				return -Infinity
 			}
 			//Write your code here
-			let high=arr[0];
-			let secHigh=arr[0];
+			let high=-2454635434;
+			let secHigh=-2454635434;
 
 			for(let i=0;i<arr.length;i++){
 				if(arr[i]>high){
 					secHigh=high
 					high=arr[i]
 				}
-				else if(arr[i]>secHigh&&arr[i]!=high){
+				else if(arr[i]!=high&&arr[i]>secHigh){
 					secHigh=arr[i];
 				}
 			}
-			if (secHigh===high) {
+			if (secHigh ==-2454635434) { 
 				return -Infinity
-			}
-			return secHigh;
+			} 
+			
+			return secHigh; 
 		}
 
 		function Main() {
